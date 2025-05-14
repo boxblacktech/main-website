@@ -2,149 +2,159 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Box Black Tech | Style Manager for Google Docs</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Black Tech | Style Manager for Google Docs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-    body {
-      font-family: 'Inter', sans-serif;
-      background: linear-gradient(145deg, #0f0f0f, #1a1a1a);
-      color: #f3f3f3;
-      line-height: 1.6;
-    }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(145deg, #0f0f0f, #1a1a1a);
+            color: #f3f3f3;
+            line-height: 1.6;
+        }
 
-    header {
-      background-color: #111;
-      padding: 1.5rem 2rem;
-      text-align: center;
-      border-bottom: 2px solid #333;
-    }
+        a {
+            color: #00ffd1;
+        }
 
-    header h1 {
-      font-size: 2.5rem;
-      color: #00ffd1;
-      margin-bottom: 0.25rem;
-    }
+        header {
+            background-color: #111;
+            padding: 1.5rem 2rem;
+            text-align: center;
+            border-bottom: 2px solid #333;
+        }
 
-    header p {
-      color: #bbb;
-      font-weight: 500;
-    }
+        header h1 {
+            font-size: 2.5rem;
+            color: #00ffd1;
+            margin-bottom: 0.25rem;
+        }
 
-    main {
-      max-width: 1000px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
+        header p {
+            color: #bbb;
+            font-weight: 500;
+        }
 
-    section {
-      margin-bottom: 3rem;
-    }
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
 
-    h2 {
-      font-size: 1.75rem;
-      margin-bottom: 1rem;
-      color: #00ffd1;
-    }
+        section {
+            margin-bottom: 3rem;
+        }
 
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
+        h2 {
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+            color: #00ffd1;
+        }
 
-    ul li::before {
-      content: '✔';
-      color: #00ffd1;
-      margin-right: 0.75rem;
-    }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
 
-    ul li {
-      margin-bottom: 0.75rem;
-      font-size: 1.1rem;
-    }
+        ul li::before {
+            content: '✔';
+            color: #00ffd1;
+            margin-right: 0.75rem;
+        }
 
-    .cta {
-      text-align: center;
-      background: #00ffd1;
-      color: #000;
-      padding: 1.5rem;
-      border-radius: 12px;
-      box-shadow: 0 0 20px rgba(0, 255, 209, 0.3);
-      font-weight: 600;
-      font-size: 1.2rem;
-    }
+        ul li {
+            margin-bottom: 0.75rem;
+            font-size: 1.1rem;
+        }
 
-    .cta a {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.75rem 2rem;
-      background: #000;
-      color: #00ffd1;
-      border: 2px solid #00ffd1;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: all 0.3s ease;
-    }
+        .cta {
+            text-align: center;
+            background: #00ffd1;
+            color: #000;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 255, 209, 0.3);
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
 
-    .cta a:hover {
-      background: #00ffd1;
-      color: #000;
-    }
+        .cta a {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.75rem 2rem;
+            background: #000;
+            color: #00ffd1;
+            border: 2px solid #00ffd1;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
 
-    footer {
-      text-align: center;
-      padding: 1rem;
-      border-top: 1px solid #333;
-      color: #777;
-      font-size: 0.9rem;
-    }
-  </style>
+        .cta a:hover {
+            background: #00ffd1;
+            color: #000;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            border-top: 1px solid #333;
+            color: #777;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 
 <body>
-  <header>
-    <h1>Box Black Tech</h1>
-    <p>Innovation meets simplicity — Introducing Style Manager for Google Docs</p>
-  </header>
+    <header>
+        <h1>Box Black Tech</h1>
+        <p>Innovation meets simplicity — Introducing Style Manager for Google Docs</p>
+    </header>
 
-  <main>
-    <section>
-      <h2>What is Style Manager?</h2>
-      <p>Style Manager is a powerful Google Docs add-on that lets you create, customize, and apply advanced text styles effortlessly. Designed for productivity and style consistency, it's the ultimate tool for professionals, educators, writers, and teams.</p>
-    </section>
+    <main>
+        <section>
+            <h2>What is Style Manager?</h2>
+            <p>Style Manager is a powerful Google Docs add-on that lets you create, customize, and apply advanced text
+                styles effortlessly. Designed for productivity and style consistency, it's the ultimate tool for
+                professionals, educators, writers, and teams.</p>
+        </section>
 
-    <section>
-      <h2>Features</h2>
-      <ul>
-        <li>Toggle text formatting: <strong>Bold</strong>, <em>Italic</em>, <u>Underline</u>, <s>Strikethrough</s></li>
-        <li>Control paragraph indents: before text, after text, and first-line</li>
-        <li>Capitalization options: UPPERCASE, Capitalize Words, lowercase, Sentence case</li>
-        <li>Text alignment: Left, Right, Center, Justify</li>
-        <li>Customize line spacing, font color, highlight color</li>
-        <li>Select from any font family and size</li>
-        <li>Live preview styles in the sidebar</li>
-        <li>Save and edit your styles for global or document-specific use</li>
-        <li>Organize styles into custom groups</li>
-        <li>Extract styles from selected text to reuse and update</li>
-      </ul>
-    </section>
+        <section>
+            <h2>Features</h2>
+            <ul>
+                <li>Toggle text formatting: <strong>Bold</strong>, <em>Italic</em>, <u>Underline</u>,
+                    <s>Strikethrough</s>
+                </li>
+                <li>Control paragraph indents: before text, after text, and first-line</li>
+                <li>Capitalization options: UPPERCASE, Capitalize Words, lowercase, Sentence case</li>
+                <li>Text alignment: Left, Right, Center, Justify</li>
+                <li>Customize line spacing, font color, highlight color</li>
+                <li>Select from any font family and size</li>
+                <li>Live preview styles in the sidebar</li>
+                <li>Save and edit your styles for global or document-specific use</li>
+                <li>Organize styles into custom groups</li>
+                <li>Extract styles from selected text to reuse and update</li>
+            </ul>
+        </section>
 
-    <section class="cta">
-      <p><strong>Get Style Manager for just $5 — lifetime license with free updates!</strong></p>
-      <a href="#">Buy Now</a>
-    </section>
-  </main>
+        <section class="cta">
+            <p><strong>Get Style Manager for just $5 — lifetime license with free updates!</strong></p>
+            <a href="#">Buy Now</a>
+        </section>
+    </main>
 
-  <footer>
-    &copy; 2025 Box Black Tech. All rights reserved.
-  </footer>
+    <footer>
+        <p>&copy; 2025 Box Black Tech. All rights reserved.</p>
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./terms-and-conditions.html">Terms and Conditions</a>
+    </footer>
 </body>
 
 </html>
